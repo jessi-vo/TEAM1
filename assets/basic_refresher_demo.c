@@ -105,7 +105,7 @@ static double mean_of(int total, size_t count)
 }
 
 int anhc4(int a, double n){
-    int s = a+n;
+    int s = "sfbhjfhjsdh";
     return s;
 }
 
