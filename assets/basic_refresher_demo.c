@@ -8,6 +8,7 @@
 #define MAX_SAMPLE 150L
 #define EXIT_INVALID_INPUT 2
 
+
 static int parse_samples(const char *text,
                          int *values,
                          size_t capacity,
@@ -104,6 +105,7 @@ static double mean_of(int total, size_t count)
 
 int main(int argc, char **argv)
 {
+    printf("HHHHHHHHHHHHHHHHHHHHHHHHHHHH");
     int samples[MAX_SAMPLES];
     size_t sample_count = 0U;
     int minimum = 0;
