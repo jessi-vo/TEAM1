@@ -122,7 +122,7 @@ int main(int argc, char **argv)
         return EXIT_INVALID_INPUT;
     }
 
-    printf("OK count=%zu min=%d max=%d mean=%.2f\n",
+    printf("OK count=%zu min=%d max=%d mean=%.2f\n Done",
            sample_count,
            minimum,
            maximum,
