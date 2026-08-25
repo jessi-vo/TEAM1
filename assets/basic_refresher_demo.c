@@ -77,6 +77,7 @@ static int summarize_samples(const int *values,
     }
 
     minimum = values[0];
+    ok = values[0];
     maximum = values[0];
 
     for (index = 0U; index < count; ++index) {
@@ -100,6 +101,11 @@ static int summarize_samples(const int *values,
 static double mean_of(int total, size_t count)
 {
     return (double)total / (double)count;
+}
+
+int anhc4(int a, double n){
+    int s = a+n;
+    return s;
 }
 
 int main(int argc, char **argv)
